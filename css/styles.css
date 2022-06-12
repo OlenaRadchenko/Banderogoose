@@ -129,3 +129,123 @@ header {
     color: var(--black);
     width: 280px;
 }
+.victory-background {
+    width: 1170px;
+    padding: 72px 0;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(270.52deg, #A5DEFF 0.45%, rgba(252, 254, 255, 0) 99.58%);
+}
+.victory-footer {
+    display: flex;
+    justify-content: center;    
+}
+.victory-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 2.08;
+    color: var(--black);
+    margin: 16px 0;
+    text-align: center;
+}
+.victory-descr {
+    line-height: 1.5;
+    text-align: center;
+    width: 875px;   
+    color: var(--black);
+}
+.modal-background {
+    background: rgb(27 29 31 / 70%);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.modal-form-container {
+    background-color: var(--white);
+    padding: 32px 100px 60px 100px;
+    position: relative;
+}
+.modal-form-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--black);
+    margin: 32px 0 12px 0;
+}
+.modal-form-descr {
+    line-height: 1.5;
+    color: var(--black);
+    margin-bottom: 24px;
+}
+.modal-launch {
+    background: var(--orange);
+    border-radius: 8px;
+    padding: 12px 24px;
+    line-height: 1.5;
+    color: var(--white);
+    cursor: pointer;
+    border: 0;  
+    margin-top: 24px;
+}
+.modal-form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.modal-field-name {
+    line-height: 1.5;
+    color: var(--black);
+    margin-bottom: 8px;
+}
+.modal-form-input {
+    background: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 8px;
+    height: 48px;
+    color: var(--black);
+    padding: 4px 8px;
+}
+.close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    color: var(--black);
+    cursor: pointer;
+    border: 0;
+    background: var(--white);
+}
+.message-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    padding: 32px 100px 60px 100px;
+    position: relative;
+}
+.message-form-title {
+    color: var(--orange);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+    margin: 16px 0 20px 0;
+}
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+}
